@@ -34,7 +34,7 @@
                         <img class="logo-fold" src="assets/images/logo/logo-fold-white.png" alt="Logo">
                     </a>
                 </div>
-                <div class="nav-wrap">
+               <div class="nav-wrap">
                     <ul class="nav-left">
                         <li class="desktop-toggle">
                             <a href="javascript:void(0);">
@@ -46,13 +46,34 @@
                                 <i class="anticon"></i>
                             </a>
                         </li>
+<!--
                         <li>
                             <a href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
                                 <i class="anticon anticon-search"></i>
                             </a>
                         </li>
+-->
+						<nav class="breadcrumb breadcrumb-dash">
+                                <a href="#" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
+                                <a class="breadcrumb-item" href="#">Sector</a>
+                                <!-- <span class="breadcrumb-item active">New Sector</span> -->
+                            </nav>
                     </ul>
+					
+<!--
+                        <nav class="breadcrumb breadcrumb-dash" style="margin-left: -490px;padding-top: 20px;">
+                                <a href="#" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
+                                <a class="breadcrumb-item" href="#">Sector</a>
+                                <span class="breadcrumb-item active">New Sector</span>
+                            </nav>
+-->
+					
                     <ul class="nav-right">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                <i class="anticon anticon-search"></i>
+                            </a>
+                        </li>
                         <li class="dropdown dropdown-animated scale-left">
                             <a href="javascript:void(0);" data-toggle="dropdown">
                                 <i class="anticon anticon-bell notification-badge"></i>
@@ -190,8 +211,19 @@
                                 <span class="icon-holder">
                                     <i class="anticon anticon-appstore"></i>
                                 </span>
-                                <span class="title">Home</span>
+                                <span class="title">Dashboard</span>
                             </a>
+                        </li>
+                        <li class="nav-item s-naveborder">
+                            <a class="pt-3 pb-3 nav-li-hov" href="#">
+                                <span class="icon-holder">
+									<i class="anticon anticon-team"></i>
+                                </span>
+                                <span class="title">User Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-item s-naveborder" style="background-color: rgba(249,251,253,1.00);">
+							<p style="height: 2px"></p>
                         </li>
                         <li class="nav-item s-naveborder">
                             <a class="pt-3 pb-3 nav-li-hov" href="#;">
@@ -210,27 +242,19 @@
                             </a>
                         </li>
                         <li class="nav-item s-naveborder">
-                            <a class="pt-3 pb-3 nav-li-hov" href="#">
-                                <span class="icon-holder">
-                                    <i class="anticon anticon-deployment-unit"></i>
-                                </span>
-                                <span class="title">Components</span>
-                            </a>
-                        </li>
-                        <li class="nav-item s-naveborder">
-                            <a class="pt-3 pb-3 nav-li-hov" href="#">
-                                <span class="icon-holder">
-									<i class="anticon anticon-team"></i>
-                                </span>
-                                <span class="title">User Management</span>
-                            </a>
-                        </li>
-                        <li class="nav-item s-naveborder">
                             <a class="pt-3 pb-3 nav-li-hov" href="javascript:void(0);">
                                 <span class="icon-holder">
                                     <i class="anticon anticon-calendar"></i>
                                 </span>
                                 <span class="title">Release Calendar</span>
+                            </a>
+                        </li>
+                        <li class="nav-item s-naveborder">
+                            <a class="pt-3 pb-3 nav-li-hov" href="#">
+                                <span class="icon-holder">
+                                    <i class="anticon anticon-setting"></i>
+                                </span>
+                                <span class="title">Advance</span>
                             </a>
                         </li>
 <!--
