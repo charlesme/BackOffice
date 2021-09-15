@@ -439,7 +439,7 @@
                                     <div class="d-flex justify-content-between align-items-center">
                                         <h5>Data Sets</h5>
                                         <div>
-                                            <a href="#" class="item-button"><i class="anticon anticon-plus-circle" style="color: #08741F"></i> Add </a>
+                                            <a href="#" class="item-button" data-toggle="modal" data-target="#AddDataSetModal"><i class="anticon anticon-plus-circle" style="color: #08741F"></i> Add </a>
                                         </div>
                                     </div>
                                     <div class="m-t-30">
@@ -636,21 +636,54 @@
 	
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal">
+<div class="modal fade" id="AddDataSetModal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="AddDataSetModalLabel">Add Data Set</h5>
                 <button type="button" class="close" data-dismiss="modal">
                     <i class="anticon anticon-close"></i>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <form>
+						<div class="row">
+							<div class="col-sm-6">
+								<label for="Dsettitle">Title</label>
+								<input type="text" id="Dsettitle" class="form-control p-1" placeholder="Title">
+							</div>
+							<div class="col-sm-6">
+								<label for="Dsetname">Name</label>
+								<input type="text" id="Dsetname" class="form-control p-1" placeholder="Name">
+							</div>
+						</div>
+						<div class="row pt-2">
+							<div class="col-sm-6">
+								<label for="Dsetshortname">Short Name</label>
+								<input type="text" id="Dsetshortname" class="form-control p-1" placeholder="Short Name">
+							</div>
+							<div class="col-sm-6 pt-4">
+								<div class="form-group d-flex align-items-center">
+									<div class="switch m-r-10">
+										<input type="checkbox" id="switch-addDset">
+										<label for="switch-addDset"></label>
+									</div>
+									<label>Status</label>
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<label for="DsetDescription">Description</label>
+								<textarea class="form-control p-1" id="DsetDescription" placeholder="Description"></textarea>
+							</div>
+						</div>
+					</form>
             </div>
             <div class="modal-footer">
+<!--
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
+-->
+				<a href="#" class="item-button-save">&nbsp; Save &nbsp;</a>
             </div>
         </div>
     </div>
