@@ -13,6 +13,9 @@
 	-moz-box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.21);
 	box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.21);
 }
+.tooldiv{
+	padding-right: 20px;
+}
 .item-button{
 	border: 0.5px solid #D4D4D4;
 	border-radius: 3px;
@@ -353,5 +356,10 @@ body {
 @media screen and (min-width:992px){
 	.menu-pad{
 		margin-left: 50px;
+	}
+}
+@media screen and (min-width:993px){
+	.login-logo{
+		display: none;
 	}
 }
