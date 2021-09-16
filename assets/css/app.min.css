@@ -25516,7 +25516,7 @@ a.btn {
 .btn-default {
     color: #53535f;
     background-color: #fff;
-    border-color: #edf2f9
+    border-color: #a1a4a9;
 }
 
 .btn-default:hover,
@@ -26149,7 +26149,8 @@ a.btn {
     background-color: #fff;
     margin-bottom: 1.25rem;
     border: 1px solid #b6bbc1; 
-    border-radius: .25rem;
+    /* border-radius: .25rem; */
+    border-radius: .50rem; 
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -27906,7 +27907,7 @@ a.badge-purple:focus {
     padding: .55rem 1rem;
     height: auto;
     color: #53535f;
-    border: 1px solid #edf2f9;
+    border: 1px solid #b3b5b7; 
     font-size: .875rem;
     line-height: 1.5
 }
@@ -28329,8 +28330,11 @@ a.badge-purple:focus {
 }
 
 .switch input[type=checkbox]:checked+label {
-    background: #3f87f5;
-    border-color: #3f87f5
+    /* background: #3f87f5;
+    border-color: #3f87f5; */
+
+    background: #28a745;
+    border-color: #28a745;
 }
 
 .switch input[type=checkbox]:checked+label:before {
