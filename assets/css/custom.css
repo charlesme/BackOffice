@@ -5,17 +5,20 @@
 	font-color:#000;
 	font-weight: 600;
 }
-.title-bar{
-	-webkit-box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.58);
-	-moz-box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.58);
-	box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.58);
+.title-bar2{
+	margin-top: 58px;
+	background-color: rgba(255,255,255,1.00);
+	
+	-webkit-box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.21);
+	-moz-box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.21);
+	box-shadow: 1px 13px 8px -11px rgba(0,0,0,0.21);
 }
 .item-button{
 	border: 0.5px solid #D4D4D4;
 	border-radius: 3px;
 	font-size: 14px;
 	color: #464646;
-/*	padding: 3px 3px;*/
+	padding: 3px 4px;
 	margin-left: 5px;
 /*
 	
@@ -30,17 +33,18 @@ box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.4);
 	border-radius: 4px;
 	font-size: 14px;
 	color: #FFFFFF!important;
-	padding: 3px 3px;
+	padding: 3px 4px;
 	margin-left: 5px;
 	background-color: rgba(0,140,255,1.00);
 }
 .item-button-save:hover{
 	background-color: rgba(71,111,183,1.00);
 	color: #FFFFFF!important;
+	border-radius: 5px;
 }
 .item-button:hover{
-	background-color: rgba(252,165,251,0.46);
-	color: #464646;
+	background-color: rgba(225,225,225,1.00);
+	color: #292929!important;
 }
 .item-button, a{
 	color: #464646!important;
@@ -69,8 +73,8 @@ box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.4);
 .nav-li-hov:hover{
 	background-color: rgba(252,165,251,0.46);
 }
-.meta-field{
-	
+.sbar-icon{
+	font-size: 20px;
 }
 
 /*Flow Chart*/

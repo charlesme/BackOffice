@@ -146,8 +146,8 @@
 						<a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
 							<div class="d-flex align-items-center justify-content-between">
 								<div>
-									<i class="anticon opacity-04 font-size-16 anticon-project"></i>
-									<span class="m-l-10">Projects</span>
+									<i class="anticon opacity-04 font-size-16 anticon-team"></i>
+									<span class="m-l-10">User Management</span>
 								</div>
 								<i class="anticon font-size-10 anticon-right"></i>
 							</div>
@@ -194,18 +194,35 @@
 			</div>
 -->
 	</nav>
-	<div class="p-2" style="margin-top: 58px;background-color: rgba(255,255,255,1.00);">
+	<div class="p-2 title-bar2">
 		<div class="row">
-			<div class="col-6 pr-2">
-				<a id="sidebarCollapse">
+			<div class="col-5 pr-2">
+				<a id="sidebarCollapse" href="#">
 					<i class="fas fa-bars p-1 mb-1" style="font-size: 19px;margin-left: 10px;margin-right:10px;"></i>
 <!--					<i class="fas fa-align-left p-2" style="font-size: 20px;"></i>-->
 				</a>
-				<strong class="item-title" style="margin-left: 4px;">Dashboard</strong>
+				<span class="item-title" style="margin-left: 4px;">Dashboard</span>
 			</div>
 
-			<div class="col-md-6 text-right">
-				<a href="#" class="item-button"><i class="anticon anticon-reload" style="color: #08741F"></i> Refresh</a>
+			<div class="col-md-7 text-right" style="margin-top:10px;line-height: 2;">
+				<a href="#" class="item-button">&nbsp;<i class="fas fa-angle-left"></i>&nbsp;</a>
+				<a href="#" class="item-button">&nbsp;<i class="fas fa-angle-right"></i>&nbsp;</a>
+				<a href="#" class="item-button">New</a>
+				<a href="#" class="item-button">Clear</a>
+				<a href="#" class="item-button">Drop</a>
+				<a href="#" class="item-button">Export</a>
+				<a href="#" class="item-button">Duplicate</a>
+				<a href="#" class="item-button">Refresh</a>
+				<a href="#" class="item-button-save">Save</a>
+				<div class="dropdown dropdown-animated scale-left">
+					<a href="#" class="item-button" data-toggle="dropdown">. . .
+					</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">Action</a>
+						<a href="#" class="dropdown-item">Another action</a>
+						<a href="#" class="dropdown-item">Something else here</a>
+					</div>
+				</div>
 			</div>
 		</div>	
 	</div>
@@ -213,7 +230,8 @@
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
-            <ul class="list-unstyled components">
+            <ul class="list-unstyled">
+<!--
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -228,31 +246,61 @@
                         </li>
                     </ul>
                 </li>
+-->
+				<li class="active">
+                    <a href="#" >
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-appstore"></i>
+						</span>
+						<span class="title pl-3">Dashboard</span>
+					</a>
+                </li>
+<!--
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-team"></i>
+						</span>
+						<span class="title pl-3">User Management</span>
+					</a>
+                </li>
+-->
+                <li>
+                    <a href="#">
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-database"></i>
+						</span>
+						<span class="title pl-3">Meta Data</span>
+					</a>
+                    
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
+                    <a href="#">
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-dot-chart"></i>
+						</span>
+						<span class="title pl-3">Item Dictionary&nbsp;</span>
+					</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#">
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-calendar"></i>
+						</span>
+						<span class="title pl-3">Release Calendar</span>
+					</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">
+						<span class="icon-holder">
+							<i class="sbar-icon anticon anticon-setting"></i>
+						</span>
+						<span class="title pl-3">Advance</span>
+					</a>
                 </li>
-            </ul>
+			</ul>
 
+<!--
             <ul class="list-unstyled CTAs">
                 <li>
                     <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
@@ -261,6 +309,7 @@
                     <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
                 </li>
             </ul>
+-->
         </nav>
 
         <!-- Page Content  -->
