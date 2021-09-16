@@ -22,28 +22,41 @@
 </head>
 
 <body>
+<!--
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(255,255,255,1.00);">
-		<div class="breadcrumb breadcrumb-dash">
-		<a href="#" class="pr-2">
-			<img src="assets/images/logo/Backoffice.png" alt="Back Office" width="40" />
-		</a>
-			<a href="#" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
-			<a class="breadcrumb-item" href="#">Sector</a>
-			<span class="breadcrumb-item active">New Sector</span>
-		</div>
-		
-		
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="nav navbar-nav ml-auto">
-				<li>
+	</nav>
+-->
+		<div class="row justify-content-between navbar-light fixed-top p-2" style="background-color: rgba(255,255,255,1.00);">
+			<div class="col-5">
+				<div class="breadcrumb breadcrumb-dash">
+				<a href="#" class="pr-2">
+					<img src="assets/images/logo/Backoffice.png" alt="Back Office" width="40" />
+				</a>
+					<a href="#" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
+					<a class="breadcrumb-item" href="#">Sector</a>
+					<span class="breadcrumb-item active">New Sector</span>
+				</div>
+			</div>
+			<div class="col-sm-7 text-right">
+				<span>
+					<div class="avatar avatar-icon avatar-geekblue pointer" data-toggle="dropdown" data-target="#search-drawer">
+						<i class="anticon anticon-search"></i>
+					</div>
+<!--
 					<a href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
 						<i class="anticon anticon-search avatar"></i>
 					</a>
-				</li>
-				<li class="dropdown dropdown-animated scale-left">
+-->
+				</span>
+				<span class="dropdown dropdown-animated scale-left">
+					<div class="avatar avatar-icon avatar-magenta pointer" data-toggle="dropdown">
+						<i class="anticon anticon-bell"></i>
+					</div>
+<!--
 					<a href="javascript:void(0);" data-toggle="dropdown">
 						<i class="avatar anticon anticon-bell notification-badge"></i>
 					</a>
+-->
 					<div class="dropdown-menu pop-notification">
 						<div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
 							<p class="text-dark font-weight-semibold m-b-0">
@@ -103,8 +116,8 @@
 							</div>
 						</div>
 					</div>
-				</li>
-				<li class="dropdown dropdown-animated scale-left">
+				</span>
+				<span class="dropdown dropdown-animated scale-left">
 					<div class="pointer" data-toggle="dropdown">
 						<div class="avatar avatar-image  m-h-10 m-r-15">
 							<div class="avatar avatar-icon m-r-10">
@@ -162,44 +175,14 @@
 							</div>
 						</a>
 					</div>
-				</li>
-			</ul>
-		</div>
-		
-		
-		
-<!--
-		<ul class="nav-right">
-		</ul>
--->
-<!--
-				<a class="btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fas fa-align-justify"></i>
-				</a>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="nav navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Page</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Page</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Page</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Page</a>
-					</li>
-				</ul>
+				</span>
 			</div>
--->
-	</nav>
+		</div>
 	<div class="p-2 title-bar2">
 		<div class="row">
 			<div class="col-5 pr-2">
 				<a id="sidebarCollapse" href="#">
 					<i class="fas fa-bars p-1 mb-1" style="font-size: 19px;margin-left: 10px;margin-right:10px;"></i>
-<!--					<i class="fas fa-align-left p-2" style="font-size: 20px;"></i>-->
 				</a>
 				<span class="item-title" style="margin-left: 4px;">Dashboard</span>
 			</div>
