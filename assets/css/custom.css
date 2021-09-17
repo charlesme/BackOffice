@@ -47,6 +47,20 @@ box-shadow: 3px 4px 10px -4px rgba(0,0,0,0.4);
 	color: #FFFFFF!important;
 	border-radius: 5px;
 }
+.item-button-add{
+/*	border: 0.5px solid #D4D4D4;*/
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFFFFF!important;
+	padding: 3px 10px;
+	margin-left: 5px;
+	background-color: rgba(0,179,9,1.00);
+}
+.item-button-add:hover{
+	background-color: rgba(70,150,58,1.00);
+	color: #FFFFFF!important;
+	border-radius: 5px;
+}
 .item-button:hover{
 	background-color: rgba(225,225,225,1.00);
 	color: #292929!important;
@@ -365,3 +379,9 @@ body {
 		display: none;
 	}
 }
+@media screen and (max-width:414px){
+	.mobilbred{
+		display: none;
+	}
+}
+
