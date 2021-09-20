@@ -349,5 +349,70 @@
 <script  src="assets/script.js"></script>
 </body>
 
+<!-- Modal -->
+<div class="modal fade" id="AddDataSetModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="AddDataSetModalLabel">Add New DataSets</h5> 
+                <button type="button" class="close" data-dismiss="modal">
+                    <i class="anticon anticon-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+						<div class="row">
+							<div class="col-sm-6">
+								<label for="Dsetname">Title</label> 
+								<input type="text" id="Dsetname" class="form-control p-1" placeholder="Title">
+							</div>
+							
+							<div class="col-sm-6">
+								<label for="Dsetname">Name</label>
+								<input type="text" id="Dsetname" class="form-control p-1" placeholder="Name">
+							</div>
+						</div> <br>
+						<div class="row pt-2">
+							
+                            <div class="col-md-6">
+								<label for="Dsetname">Short Name</label> 
+								<input type="text" id="Dsetname" class="form-control p-1" placeholder="Short Name">
+							</div>
+
+							<div class="col-md-6">      
+								<div class="form-group d-flex align-items-center">
+									<div class="switch m-r-10">
+										<input type="checkbox" id="switch-addDset1"> 
+										<label for="switch-addDset1"></label>
+									</div>
+									<label>Is Active</label>   
+								</div>
+							</div>
+
+                        </div>
+
+						<div class="row">
+							<div class="col-md-12">  
+								<label for="secDescription">Description</label>
+								<textarea class="form-control p-1" id="secDescription" placeholder="Description"></textarea>
+							   </div>
+
+						</div>
+
+							
+							
+						</div>
+					</form>
+            </div>
+            <div class="modal-footer">
+
+				
+                <button class="btn btn-sm btn-primary m-r-5">Save</button>  
+                <button class="btn btn-sm btn-danger m-r-5">Cancel</button>   
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </html>
